@@ -67,7 +67,7 @@ fun main() {
         
     }
 }
-
+// This Quote class is used to generate the random number that will have a prinln statement assigned to it. The number you get will determine the Quote that you will get. With the help of the code in fun main() before the when statement
 class Quote(val numQuotes: Int) {
     fun roll(): Int {
         return (1..numQuotes).random()
