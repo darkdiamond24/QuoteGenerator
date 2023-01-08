@@ -1,6 +1,6 @@
 // fun main() is a kotlin function used in all kotlin programs
 fun main() {
-    // the variable is used to set the number of quotes and the variable is used as a string in println statements. Which will look like this in a printn statement: ${myFirstQuor=te}
+    // the variable is used to set the number range in the random number generator and the variable is used as a string in println statements. Which will look like this in a printn statement: ${myFirstQuor=te}
     val myFirstQuote = Quote(50)
     // the quoteResult will be used as a string in the println statement to pick a random number from 1-100 and will execute the code assigned to that number.
     val quoteResult = myFirstQuote.roll()
